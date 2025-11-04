@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products1</title>
+</head>
+<body>
+    <script>
+        const products = [
+        {
+            name: "Vintage T-shirt",
+            description: "Tie-dye Grateful Dead T-shirt",
+            price: 35,
+            categories: ["clothing", "vintage"]
+        },
+        {
+        name: "Canvas Tote",
+        description: "Reusable tote bag",
+        price: 18,
+        categories: ["accessories", "bags"]
+        },
+        {
+            name: "Running Sneakers",
+            description: "Cushioned sneakers built for running",
+            price: 40,
+            categories: ["sneakers", "athletics"]
+        }
+        ]
+
+        const jsonText = JSON.stringify(products, null);
+
+        document.write(jsonText);
+    </script>
+</body>
+</html>
